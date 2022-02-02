@@ -3,6 +3,7 @@
   --very_dark_desaturated_blue: hsl(229, 23%, 23%);
   --dark_grayish_blue: hsl(227, 10%, 46%);
   --dark_gray: hsl(0, 0%, 59%);
+  --brown: hsl(34, 69%, 19%);
 }
 
 html {
@@ -94,8 +95,14 @@ body {
             p {
                 margin-top: 0;
                 letter-spacing: 1px;
-                color: var(--dark_gray);
+                color: var(--brown);
             }
         }
     }
+}
+
+.yellowbg {
+    background: rgb(87,52,9);
+    background: linear-gradient(0deg, rgba(87,52,9,1) 0%, rgba(186,133,8,1) 51%, rgba(255,196,0,1) 100%);
+    color: var(--brown);
 }

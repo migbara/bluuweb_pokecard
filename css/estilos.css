@@ -3,6 +3,7 @@
   --very_dark_desaturated_blue: hsl(229, 23%, 23%);
   --dark_grayish_blue: hsl(227, 10%, 46%);
   --dark_gray: hsl(0, 0%, 59%);
+  --brown: hsl(34, 69%, 19%);
 }
 
 html {
@@ -116,6 +117,13 @@ body {
 .card-footer-social p {
   margin-top: 0;
   letter-spacing: 1px;
-  color: var(--dark_gray);
+  color: var(--brown);
+}
+
+.yellowbg {
+  background: #573409;
+  background: -webkit-gradient(linear, left bottom, left top, from(#573409), color-stop(51%, #ba8508), to(#ffc400));
+  background: linear-gradient(0deg, #573409 0%, #ba8508 51%, #ffc400 100%);
+  color: var(--brown);
 }
 /*# sourceMappingURL=estilos.css.map */
